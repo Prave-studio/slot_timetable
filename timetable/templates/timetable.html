@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slot Timetable</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid black; padding: 10px; text-align: center; }
+    th { background: #4a6fa5; color: white; }
+    .lunch { background: #f0f0f0; font-weight: bold; }
+    .mentor { background: #e3f0e3; font-weight: bold; }
+    .free { color: #777; font-style: italic; font-weight: normal; background: white; }
+  </style>
+</head>
+<body>
+  <h2>My Slot Timetable</h2>
+  <table>
+    <tr>
+      <th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th>
+      <th>Thu</th><th>Fri</th><th>Sat</th>
+    </tr>
+    <tr>
+      <td>8:00-9:30</td>
+      <td>Communicative English</td><td>Python</td><td>Communicative English</td>
+      <td class="free">Free</td><td>Python</td><td>Calculus &amp; Matrix</td>
+    </tr>
+    <tr>
+      <td>9:45-11:15</td>
+      <td>Fundamental Web App</td><td>Fundamental Web App</td><td class="free">Free</td>
+      <td class="free">Free</td><td>Fundamental Web App</td><td>Career Development Skills</td>
+    </tr>
+    <tr class="lunch">
+      <td>11:15-12:15</td>
+      <td>Lunch</td><td>Lunch</td><td>Lunch</td>
+      <td>Lunch</td><td>Lunch</td><td>Lunch</td>
+    </tr>
+    <tr class="mentor">
+      <td>12:15-1:00</td>
+      <td>Mentor Meet</td><td>Mentor Meet</td><td>Mentor Meet</td>
+      <td class="free">Free</td><td>Mentor Meet</td><td>Mentor Meet</td>
+    </tr>
+    <tr>
+      <td>1:15-2:45</td>
+      <td>Python</td><td>BEEE</td><td class="free">Free</td>
+      <td>Calculus &amp; Matrix</td><td class="free">Free</td><td class="free">Free</td>
+    </tr>
+    <tr>
+      <td>3:00-4:30</td>
+      <td>Digital Electronics</td><td class="free">Free</td><td class="free">Free</td>
+      <td class="free">Free</td><td>Digital Electronics</td><td class="free">Free</td>
+    </tr>
+  </table>
+</body>
+</html>
